@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <% now = Time.now%>
+    <p>
+      <!-- <%= "The date is #{now.strftime("%A")}, #{now.strftime("%B")} #{now.mday}, #{now.year}" %> -->
+      <%= "#{Date.today.strftime("%A, %B %d, %Y")}" %>
+    </p>
+  </body>
+</html>
